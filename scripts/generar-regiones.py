@@ -120,7 +120,7 @@ def pagina(r, todas, temporada, cabecera, pie) -> str:
   <div class="wrap">
     <ul class="facts">
       <li class="reveal"><b>30</b><span>días de campaña</span><small>Se extiende a 35 si no se alcanza la meta</small></li>
-      <li class="reveal"><b>{primera["compania"]}%</b><span>para tu Compañía</span><small>Desde el {esc(primera["periodo"].lower())}</small></li>
+      <li class="reveal"><b>{primera["compania"]}%</b><span>para tu Compañía</span><small>{esc(primera["periodo"])}: primer aporte</small></li>
       <li class="reveal facts__hl"><b>{final["compania"]}%</b><span>para tu Compañía</span><small>{esc(final["periodo"])}, pagado el día 5 de cada mes</small></li>
       <li class="reveal"><b>∞</b><span>contrato indefinido</span><small>Cláusulas de término en el contrato</small></li>
     </ul>
