@@ -8,7 +8,18 @@ Sitio de una sola página para VRG Gestión de Recursos SpA, empresa de captaci�
 index.html        Página única (HTML semántico)
 css/styles.css    Estilos; animaciones y menú móvil solo con CSS
 img/              Logo, favicon e ícono para móviles
+regiones/         Una página por región (generadas, no editar a mano)
+data/regiones.json  Condiciones de campaña por región y temporada
+scripts/generar-regiones.py  Genera regiones/*.html desde el JSON
 ```
+
+## Actualizar las condiciones por región
+
+1. Editar `data/regiones.json` (porcentajes por mes, temporada, zonas).
+2. Ejecutar `python3 scripts/generar-regiones.py`.
+3. Hacer commit de `data/` y `regiones/`.
+
+El encabezado y el pie de las páginas por región se copian de `index.html`, así que un cambio en la navegación se aplica a todas al volver a generar.
 
 ## Notas
 

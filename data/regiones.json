@@ -1,0 +1,140 @@
+{
+  "temporada": "2026 – 2027",
+  "regiones": [
+    {
+      "slug": "coquimbo",
+      "nombre": "Región de Coquimbo",
+      "corto": "Coquimbo",
+      "prefijo": "Región de",
+      "imagen": "5964971",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 a 5", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 6 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "valparaiso",
+      "nombre": "Región de Valparaíso",
+      "corto": "Valparaíso",
+      "prefijo": "Región de",
+      "imagen": "5964983",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 y 4", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 5 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "metropolitana",
+      "nombre": "Región Metropolitana",
+      "corto": "Metropolitana",
+      "prefijo": "Región",
+      "imagen": "14776515",
+      "tramos": [
+        {
+          "zona": "Provincia de Santiago",
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 3", "vrg": 60, "compania": 40 },
+            { "periodo": "Mes 4 en adelante", "vrg": 17, "compania": 83, "nota": "VRG retiene 14,25% + IVA como comisión de mantención" }
+          ]
+        },
+        {
+          "zona": "Provincias de Cordillera, Maipo, Melipilla, Talagante y Chacabuco",
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 y 4", "vrg": 80, "compania": 20 },
+            { "periodo": "Mes 5 en adelante", "vrg": 17, "compania": 83, "nota": "VRG retiene 14,25% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ohiggins",
+      "nombre": "Región de O'Higgins",
+      "corto": "O'Higgins",
+      "prefijo": "Región de",
+      "imagen": "5964981",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 y 4", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 5 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "maule",
+      "nombre": "Región del Maule",
+      "corto": "Maule",
+      "prefijo": "Región del",
+      "imagen": "17463228",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 a 5", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 6 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nuble",
+      "nombre": "Región de Ñuble",
+      "corto": "Ñuble",
+      "prefijo": "Región de",
+      "imagen": "5964978",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 a 5", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 6 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biobio",
+      "nombre": "Región del Biobío",
+      "corto": "Biobío",
+      "prefijo": "Región del",
+      "imagen": "5964741",
+      "tramos": [
+        {
+          "zona": null,
+          "filas": [
+            { "periodo": "Mes 1", "vrg": 100, "compania": 0 },
+            { "periodo": "Mes 2", "vrg": 100, "compania": 0 },
+            { "periodo": "Meses 3 a 5", "vrg": 90, "compania": 10 },
+            { "periodo": "Mes 6 en adelante", "vrg": 20, "compania": 80, "nota": "VRG retiene 16,8% + IVA como comisión de mantención" }
+          ]
+        }
+      ]
+    }
+  ]
+}
